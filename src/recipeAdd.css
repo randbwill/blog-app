@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Aboreto|DynaPuff|Quicksand');
+body {
+  
+}
+#submitForm {
+    width:75%;
+    text-align: center;
+    overflow:auto;
+    margin:auto;
+}
+#submitForm h3 {
+    font-family: 'Quicksand';
+}
+#subform {
+    width:50%;
+    text-align: center;
+    margin:auto;
+    font-family: aboreto;
+    font-size: x-large;
+
+}
+#topTitle {
+    text-align: center;
+    font-family: 'DynaPuff';
+}
+header {
+    position:relative;
+}
+card {
+    background-color: rgb(44, 139, 105);
+    text-align: center;
+    box-shadow: 5px 10px;
+    margin: 5px;
+    padding-bottom: 30px;
+}
