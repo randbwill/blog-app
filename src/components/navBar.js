@@ -1,3 +1,4 @@
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -18,8 +19,12 @@ function NavBar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <LinkContainer to="/components/home.js">Home</LinkContainer>
+            <LinkContainer to="/components">
+            <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/components/newRecipe">
             <Nav.Link to="#action2">Recipes</Nav.Link>
+            </LinkContainer>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item to="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item to="#action4">
