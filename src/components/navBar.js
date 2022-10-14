@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand to="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand to="#">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -23,7 +23,7 @@ function NavBar() {
             <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/components/newRecipe">
-            <Nav.Link to="#action2">Recipes</Nav.Link>
+            <Nav.Link to> Add Recipe</Nav.Link>
             </LinkContainer>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item to="#action3">Action</NavDropdown.Item>
@@ -35,9 +35,6 @@ function NavBar() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link to="#" disabled>
-              Link
-            </Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
